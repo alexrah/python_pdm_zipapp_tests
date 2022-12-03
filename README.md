@@ -22,7 +22,7 @@
 ## zipapp - compress project to python zip executable 
 * create a folder `build` and copy/paste the project packages and requirements.txt
 * in that folder run: `python -m pip install -r requirements.txt --target ./`
-* in parent folder create archive: `python -m zipapp build -m 'main:test'`
+* in parent folder create archive: `python -m zipapp build -c -m 'main:test'`
 
 in the above case, entry point is module `main.py` function `test()`
 
