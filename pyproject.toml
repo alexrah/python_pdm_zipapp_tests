@@ -1,0 +1,14 @@
+[tool.pdm]
+
+[project]
+name = "pdm_test"
+version = "0.0.1"
+description = "dpm_test project"
+authors = [
+    {name = "alessandro stoppato", email = "alexrah@gmail.com"},
+]
+dependencies = [
+    "pypasser>=0.0.5",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
